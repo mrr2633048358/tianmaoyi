@@ -1,0 +1,488 @@
+@import url('base.css');
+/* 头部开始 */
+
+.toubu{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+    margin-top: 0;
+    overflow: hidden;
+}
+.toubu-left{
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-left: 0.29rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.toubu-left img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.toubu-center{
+	width: 3.98rem;
+	height: 0.66rem;
+	margin-left: 0.27rem;
+	margin-top: 0.1rem;
+	float: left;
+	border-radius: 0.03rem;
+}
+.toubu-sousuo{
+	width: 3.32rem;
+	height: 0.66rem;
+	padding: 0.1rem 0.2rem;
+	border: 0;
+	outline: none;
+	float: left;
+	background:#fee9e9;
+	color: #a28d8d;
+	font-size: 0.26rem;
+	line-height: 0.46rem;
+	border-radius: 0.03rem 0 0 0.03rem;
+}
+.toubu-center button{
+	width: 0.66rem;
+	height: 0.66rem;
+	display: block;
+	float: right;
+	background:#fee9e9;
+	border: 0;
+	border-radius: 0 0.03rem 0.03rem 0;
+}
+.toubu-center button img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.03rem;
+}
+.toubu-right{
+	width: 0.8rem;
+	height: 0.24rem;
+	float: right;
+	margin-right: 0.05rem;
+	margin-top: 0.23rem;
+	display: block;
+	font-size: 0.30rem;
+	color: #fdffff;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.banner{
+	width: 100%;
+	height: 2.22rem;
+	overflow: hidden;
+}
+.banner-pic{
+	width: 100%;
+	height: 2.22rem;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.banner-pic img{
+	width: 100%;
+	height: 100%;
+}
+.banner-list{
+	width: 1.44rem;
+	height: 0.14rem;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0.16rem;
+}
+.banner-list li{
+	width: 0.10rem;
+	height: 0.10rem;
+	float: left;
+	border-radius: 50%;
+	background: #7b7a7d;
+	border: 0.02rem solid #7b7a7d;
+	margin: 0 0.02rem;
+}
+/* banner结束 */
+/* 分类开始 */
+/* .navList{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+} */
+.navList{
+	width: 100%;
+	height: 2.7rem;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.list li{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-top:0.08rem; 
+	margin-bottom: 0.17rem;
+}
+.naving{
+	width: 0.72rem;
+	height: 0.72rem;
+	display: block;
+	margin: 0 auto;
+}
+.naving img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.navtext{
+	display: block;
+	font-size: 0.22rem;
+	text-align: center;
+	margin-top: 0.15rem;
+	color: #333;
+}
+/* 分类结束 */
+/* 轮播图开始 */
+.lunbo-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background:  #f0f0f0;
+	padding: 2% 0;
+}
+.lunbo{
+	width: 100%;
+	height: auto;
+	overflow: hidden;/* 
+	background: pink; */
+}
+.lunbo li{
+	width: 3.44rem;
+	height: 2.08rem;
+	margin: 0 0.06rem;
+}
+.lunbo li a{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.lunbo li a img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+/* 轮播图结束 */
+/* 必抢开始 */
+/* .bq{
+	background: #FF2E2E;
+}
+.bqtext{
+	color: #ff2e2e;
+} */
+.bq{
+	background: #FF2E2E;
+}
+.bqtext{
+	color: #FF2E2E;
+}
+.bq-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.bq-bottom li{
+	width: 25%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	background: #fff;
+	border-bottom: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+	padding-bottom: 0.12rem;
+}
+.bq-bottom li:nth-child(4n){
+	border-left: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+	border-bottom:  0.03rem solid #f0f0f0;
+}
+.bq-bottom li:last-child{
+	border-left: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.bq-bottom li a{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.bq-bottext1{
+	display: block;
+	width: 100%;
+	height: 0.52rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.52rem;
+	color: #2f2f2f;
+}
+.bq-bottext2{
+	display: block;
+	width: auto;
+	height: 0.38rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #ff2e2e;
+	float: left;
+	margin-left: 0.2rem;
+}
+.bq-bottext2 p{
+	color: #9b9b9b;
+	text-decoration: line-through;
+	float: right; 
+	text-align: center;
+}
+.bq-bottom li a img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: block;
+}
+/* 必抢结束 */
+/* 潮流酷玩开始 */
+.chaoLiu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.chaotitle-box{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	padding:  0.16rem 1.6rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chaotitle-left{
+	width:0.68rem;
+	height: 0.02rem;
+	float: left;/* 
+	margin-top: 0.16rem; */
+}
+.se{	
+	background: #becfec;
+}
+.chaotitle-img{
+	width: 0.30rem;
+	height: 0.30rem;
+	margin-left: 0.16rem;
+	float: left;
+	overflow: hidden;
+}
+.chaotitle-img img{
+	width: auto;
+	overflow: hidden;
+	height: 100%;
+	display: block;
+}
+.chaotext{
+	width: 1.33rem;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.26rem;
+	float: left;/* 
+	margin-top: 0.05rem; */
+}
+.zi{
+	color: #4a84e2;
+}
+.chaoliu-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.chaoliu-bottom li{
+	width: calc(100% / 3);
+	height: 2.58rem;
+	float: left;
+}
+.chaoliu-bottom li a{
+	width:  100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+.chaoliu-bottom li a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 潮流酷玩结束 */
+/* 品牌特卖开始 */
+.pinp{
+	background: #ffcc99;
+}
+.pinptext{
+	color: #ffcc99;
+}
+.pinp-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.pinp-bottom li{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.pinp-bottom li:last-child{
+	border-left: 0.04rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.pinp-bottom li a{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.pinp-bottom li a img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+}
+/* 品牌特卖结束 */
+/* 猜你喜欢开始 */
+.cain{
+	background: #ffcc99;
+}
+.caintext{
+	color: #ffcc99;
+}
+.cain-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.cain-bottom li{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	background: #fff;
+}
+.cain-bottom li:first-child{
+	border-right: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.cain-bottom li:last-child{
+	border-left: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.cain-bottom li a{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 0.24rem;
+}
+.cain-bottom li a img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+}
+.cain-bottext1{
+	display: block;/* 
+	width: 2.8rem; */ 
+	height: 0.6rem;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color: #666;
+	margin:0 auto;
+	margin-top: 0.14rem;
+}
+.cain-bottext2{
+	display: block;
+	width: auto;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #dd2727;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.2rem;
+}
+.end{
+	width: 100%;
+	height: 0.86rem;
+}
+.end-img{
+	width: 0.78rem;
+	height: 0.52rem;
+	margin: 0 auto;
+	margin-top: 0.22rem;
+	margin-bottom: 0.12rem;
+}
+.end img{
+	width: 0.78rem;
+	height: 0.52rem;
+	float: left;
+}
+/* 猜你喜欢结束 */
+/* 页脚开始 */
+.footer-box{
+	width: 100%;
+	height: 2.02rem;
+	border-top: 0.04rem solid #000000;
+}
+.footer-list{
+	height: 0.35rem;
+	overflow: hidden;
+	margin-left: 0.50rem;
+	margin-top: 0.42rem;
+}
+.footer-list li{
+	font-size: 0.23rem;
+	text-align: center;
+	line-height: 0.23rem;
+	border-right: 0.02rem;
+	padding: 0 0.23rem;
+	float: left;
+	border-right: 0.02rem solid #b29999;
+}
+.footer-list li:last-child{
+	border: 0;
+}
+.footer-list li a{
+	color: #a599a5;
+}
+.com{
+	width: 100%;
+	height: 0.17rem;
+	font-size: 0.17rem;
+	text-align: center;
+	line-height: 0.17rem;
+	margin-top: 0.67rem;
+	color: #b29999;
+}
+/* 页脚结束 */
